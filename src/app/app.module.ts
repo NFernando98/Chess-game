@@ -5,6 +5,9 @@ import { IframeComponent } from 'src/iframe/iframe.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { NgxChessBoardModule } from "ngx-chess-board";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +16,8 @@ import { AppComponent } from './app.component';
   
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxChessBoardModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

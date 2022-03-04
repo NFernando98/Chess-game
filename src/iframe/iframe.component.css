@@ -1,0 +1,21 @@
+.iframesContainer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto; 
+}
+
+/* .iframesContainer:first-child{
+    margin-left: 50px;
+}
+.iframesContainer:last-child{
+    margin-right: 50px;
+} */
+
+.IframesContainer iframe{
+    float: left;
+    background-color:#ffffff;
+    width: calc(50% - 1.5em);
+    margin-left: 1.5em;
+}
